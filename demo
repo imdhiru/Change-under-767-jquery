@@ -1,0 +1,11 @@
+$(document).ready(function(){
+$(window).on('resize',function(){
+    if ($(window).width() < 800) {   
+      location.reload();  
+     // apply jquery below 800
+    }
+    else {  
+      // apply jquery  on desktop
+    }
+}); 
+});
